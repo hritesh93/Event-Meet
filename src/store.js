@@ -41,6 +41,7 @@ export default new Vuex.Store({
       return state.todos.filter(todo => !todo.done).length
     },
     getEventById: state => id => {
+      // eslint-disable-next-line no-unused-vars
       return state.events.find(event => id === id)
     }
   }
