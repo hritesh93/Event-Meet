@@ -2,19 +2,25 @@
   <div>
     <h1>Create an event, {{ user.name }}</h1>
     <p>This event was created by {{ user.id }}</p>
-    <ul>
-      <li v-for="cat in categories" :key="cat">{{ cat }}</li>
-    </ul>
+    <p>There are {{ catLength }} categories</p>
+    <p>{{ getEventById(2) }}</p>
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapGetters } from 'vuex'
 export default {
-  // eslint-disable-next-line prettier/prettier
-  computed: mapState(['user', 'categories']),
+  computed: {
+    catLength() {
+      return this.$store.getters.catLength
+    },
+    ...mapGetters(['getEventById']),
+    // eslint-disable-next-line prettier/prettier
+    ...mapState(['user', 'categories']),
+    // eslint-disable-next-line prettier/prettier
+  },
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>
