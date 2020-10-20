@@ -14,6 +14,7 @@
     "sass-loader": "^10.0.3",
     "vue": "^2.6.12",
     "vue-router": "^3.4.7",
+    "vuejs-datepicker": "^1.6.2",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
@@ -24,4 +25,3 @@
     "vue-template-compiler": "^2.6.12"
   }
 }
-

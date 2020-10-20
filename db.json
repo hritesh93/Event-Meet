@@ -71,7 +71,24 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 4098634,
+      "user": {
+        "id": "abc123",
+        "name": "Jet Black"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Jet Black"
+      },
+      "title": "Chicken Wings Eating competition",
+      "description": "Eat eat eat",
+      "location": "Upvan Lake",
+      "date": "2020-11-03T17:59:00.000Z",
+      "time": "21:00",
+      "attendees": []
     }
   ]
 }
-
