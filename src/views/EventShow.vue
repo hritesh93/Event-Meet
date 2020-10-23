@@ -32,14 +32,21 @@
   </div>
 </template>
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 
 export default {
   props: ['id'],
   created() {
-    this.$store.dispatch('fetchEvent', this.id)
+    this.fetchEvent(this.id)
   },
-  computed: mapState(['event']),
+  // eslint-disable-next-line prettier/prettier
+  computed: mapState({
+    // eslint-disable-next-line prettier/prettier
+    event: (state) => state.event.event,
+    // eslint-disable-next-line prettier/prettier
+  }),
+  // eslint-disable-next-line prettier/prettier
+  methods: mapActions('event', ['fetchEvent']),
 }
 </script>
 <style scoped>
