@@ -1,3 +1,7 @@
-# Do you have what it takes to be a Pokémon Master?
+## Looking for a Event hosting platform?
 
-Find all Pokémon battles and events here!!
+### Find all of your events here!!
+#### 1. npm install
+#### 2. npm install -g json-server (mock database :))
+#### 3. npm run serve
+### Done!
