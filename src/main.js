@@ -4,9 +4,13 @@ import camelCase from 'lodash/camelCase'
 import App from './App.vue'
 import router from './router'
 import store from './store/store'
-import BaseIcon from '@/components/BaseIcon'
+import 'nprogress/nprogress.css'
+import Vuelidate from 'vuelidate'
+import DateFilter from './filters/date'
 
-Vue.component('BaseIcon', BaseIcon)
+Vue.filter('date', DateFilter)
+
+Vue.use(Vuelidate)
 
 Vue.config.productionTip = false
 
