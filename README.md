@@ -1,4 +1,4 @@
-## Looking for a Event hosting platform?
+## Looking for an Event hosting platform?
 
 ### Find all of your events here!!
 #### 1. $npm install
