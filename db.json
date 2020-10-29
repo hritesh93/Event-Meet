@@ -62,6 +62,24 @@
       "date": "2020-10-14T21:12:00.000Z",
       "time": "14:00",
       "attendees": []
+    },
+    {
+      "id": 1358050,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "TEDX",
+      "description": "TED TED TED",
+      "location": "Mumbai",
+      "date": "2020-11-11T12:12:00.000Z",
+      "time": "17:00",
+      "attendees": []
     }
   ]
 }
