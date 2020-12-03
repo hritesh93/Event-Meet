@@ -1,31 +1,23 @@
-## Looking for an Event hosting platform?
+To install dependencies:
 
-### Project setup
 ```
-npm install
-```
-
-### Install json-server
-```
-npm install -g json-server (mock database :))
+    $ npm install
 ```
 
-### Run the server to fetch data
+To run the server:
+
 ```
-json-server --watch db.json (sets up axios call on port 3000)
+    $ npm run serve
 ```
 
-### Compiles and hot-reloads for development
+To get json-server, which we use for our mock database (Starting on API calls with Axios)
+
 ```
-npm run serve
+    $ npm install -g json-server
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+To run the mock database
 
-### Lints and fixes files
 ```
-npm run lint
+    $ json-server --watch db.json
 ```
