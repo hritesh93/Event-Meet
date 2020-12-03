@@ -1,7 +1,5 @@
 ## Looking for an Event hosting platform?
 
-### Find all of your events here!!
-
 ### Project setup
 ```
 npm install
